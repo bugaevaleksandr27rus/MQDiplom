@@ -9,7 +9,7 @@ a {
 }
 h1.header {
 	width: 100vw;
-	min-width: 277px;
+	max-width: 277px;
 	line-height: 75px;
 	text-align: center;
 	z-index: 1;
