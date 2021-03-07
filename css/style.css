@@ -16,11 +16,13 @@ a {
 	background-image: url(../image/banner-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: 30% 75%;
+	background-position: 30% 70%;
 	position: relative;
 	width: 100vw;
 	max-width: 360px;
-	height:auto;
+	height:100vh;
+	max-height: 640px;
+	margin: 0 auto 45px;
 }
 .container {
 	width: 100vw;
@@ -71,7 +73,7 @@ header::before {
 	margin-bottom: 45px;
 }
 .logo {
-	padding-top: 204px;
+	padding-top: 120px;
 	width: 275px;
 	z-index: 1;
 	position: relative;
@@ -93,6 +95,20 @@ h1.header {
 	margin-right: auto;
 	padding-bottom: 287px;
 }
+.container-main {
+	width: 100vw;
+	max-width: 330px;
+	align-items: center;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.post-blog {
+	width: 330px;
+}
+.img-post {
+	width: 100%;
+ }
 @font-face {
 	font-family: regular;
 	src: url(../fonts/OpenSans-Regular.woff);
