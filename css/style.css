@@ -1,4 +1,8 @@
-
+body {
+	width: 100vw;
+	max-width: 360px;
+	margin: 0 auto;
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -7,30 +11,24 @@ a {
 	text-transform: uppercase;
 	text-decoration: none;
 }
-h1.header {
-	width: 100vw;
-	max-width: 277px;
-	line-height: 75px;
-	text-align: center;
-	z-index: 1;
-	font-family: bold;
-	text-transform: uppercase;
-	color: white;
-	position: relative;
-	font-size: 26px;
-	/*margin-left: auto;
-	margin-right: auto;*/
-	padding-top: 4px;
-	padding-bottom: 217px;
-}
-header {
-	/*margin-left: auto;
-	margin-right: auto;*/
-	background-image: url(../image/banner-bg.jpg);
-	position: relative;
-	background-size: cover;
-	background-repeat: no-repeat;
+.blog-header {
 	background-color: #6d6c69;
+	background-image: url(../image/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 30% 75%;
+	position: relative;
+	width: 100vw;
+	max-width: 360px;
+	height:auto;
+}
+.container {
+	width: 100vw;
+	max-width: 330px;
+	align-items: center;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 header::before {
 	content: "";
@@ -42,18 +40,58 @@ header::before {
 	position: absolute;
 	z-index: 1;
 }
-.container {
-	width: 100%;
-	max-width: 360px;
-	justify-content: space-between;
-	margin-right: auto;
+.burger-menu {
+	width: 23px;
+	height: 4px;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+	top: 30px;
 	margin-left: auto;
-	padding-left: 15px;
-	padding-right: 15px;
+}
+.burger-menu::after {
+	margin-top: 16px;
+	content: "";
+	display: inline-block;
+	position: absolute;
+	background-color:white;
+	width: 23px;
+	height: 4px;
+}
+.burger-menu::before {
+	margin-top: 8px;
+	content: "";
+	display: inline-block;
+	position: absolute;
+	background-color:white;
+	width: 23px;
+	height: 4px;
+}
+.image-logo {
+	margin-bottom: 45px;
 }
 .logo {
-	margin: 45px auto;
+	padding-top: 204px;
 	width: 275px;
+	z-index: 1;
+	position: relative;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+h1.header {
+	width: 100%;
+	max-width: 285px;
+	line-height: 37px;
+	text-align: center;
+	z-index: 1;
+	font-family: bold;
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+	font-size: 26px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 287px;
 }
 @font-face {
 	font-family: regular;
@@ -67,4 +105,3 @@ header::before {
 	font-weight: 700;
 	font-style: normal;
 }
- 
