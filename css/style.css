@@ -106,13 +106,8 @@ h1.header {
 	margin-left: auto;
 	margin-right: auto;
 }
-.container-main {
-	width: 100vw;
-	max-width: 330px;
-	align-items: center;
-	margin: 0 auto;
-	padding-left: 1.5%;
-	padding-right: 1.5%;
+.now-trend {
+	margin-bottom: 43px;
 }
 .trend {
 	text-transform: uppercase;
@@ -182,6 +177,13 @@ h1.header {
 .trend-title {
 	color:#ffffff;
 }
+.container-main {
+	width: 100vw;
+	max-width: 330px;
+	align-items: center;
+	margin: 0 auto;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
 }
 .post-blog {
 	width: 330px;
@@ -210,11 +212,11 @@ h1.header {
 	font-size: 16px;
 	line-height: 20px;
  }
-.post-title {
-	color:#0f0d0e;
- }
 .title:hover {
 	color: #bd965c;
+ }
+ .post-title {
+	color:#0f0d0e;
  }
 .date-auftor {
 	display: flex;
